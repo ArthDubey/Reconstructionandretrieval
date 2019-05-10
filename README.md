@@ -17,7 +17,7 @@ Clone the repository in your system and follow these steps-
 4. Enjoy your results.
 
 
-### Prerequisites
+### Requirements
 
 1.SciPy 
 
@@ -29,7 +29,16 @@ Clone the repository in your system and follow these steps-
 
 5.Tensorflow
 
-6. Theano
+6.Theano>=0.8
+
+7.EasyDict
+
+8.Pillow
+
+9.pyyaml
+
+10.sklearn
+
 
 Note- Most of these can be easily installed via pip
 
