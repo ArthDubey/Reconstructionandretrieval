@@ -20,6 +20,9 @@ Clone the repository in your system and follow these steps-
 
 4. Enjoy your results.
 
+## Interface
+
+
 ## Approach
 
 Reconstruction module uses extensive Convolutional neural network to extract the features which will be decisive in firing up the voxel neurons. From an unordered set of images of the object (without background), it will be able to output the 3D mesh of the object to a fair degree of accuracy. We had built 2 modules, one for Reconstructing from unordered, unlabelled set of images to a 32*32 voxel size 3D mesh, and another module is retrieval from API of Google Poly database of the 3D mesh according to your search query. The first module uses Theano and sklearn framework for neural network architecture and working. The input channel is the 3 images of size 127*127*3 and output layer is 32*32 to detect voxel. Result samples can be checked out.
