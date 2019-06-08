@@ -2,7 +2,7 @@
 A highly efficient software build for designers to reconstruct 3D mesh from an unlabelled, unordered set of images. It also has an additional feature of retrieving 3D meshes from online databases.
 
 <p align="center">
-  <img src="https://github.com/ArthDubey/Reconstructionandretrieval/logo.png?raw=true" alt="EASE"/>
+  <img src="https://github.com/ArthDubey/Reconstructionandretrieval/master/logo.png?raw=true" alt="EASE"/>
 </p>
 
 # Aim
