@@ -20,13 +20,17 @@ Clone the repository in your system and follow these steps-
 
 4. Enjoy your results.
 
-## Interface
-
-![alt text](https://raw.githubusercontent.com/ArthDubey/Reconstructionandretrieval/int.png)
-
-## Interface 2
+# Interface
 
 ![Screenshot](int.png)
+
+## Interface for Reconstruction
+
+![Screenshot](rec.png)
+
+## Interface for Retrieval
+
+![Screenshot](retr.png)
 
 ## Approach
 
