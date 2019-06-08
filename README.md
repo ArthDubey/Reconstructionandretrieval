@@ -14,7 +14,7 @@ This project was envisioned to reduce the complexity in the workflow of a design
 ## Getting Started
 
 Clone the repository in your system and follow these steps-
-1. Check if the requirements are satisfied.
+1. Install the requirements.
 ```
 pip install -r requirements.txt
 ```
