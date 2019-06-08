@@ -1,0 +1,10 @@
+scipy
+numpy
+imageio
+open-cv
+tensorflow
+theano>=0.8
+easydict
+pillow
+pyyaml
+sklearn
