@@ -22,6 +22,7 @@ Clone the repository in your system and follow these steps-
 
 ## Interface
 
+![alt text](https://raw.githubusercontent.com/ArthDubey/Reconstructionandretrieval/int.png)
 
 ## Approach
 
