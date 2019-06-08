@@ -15,14 +15,16 @@ This project was envisioned to reduce the complexity in the workflow of a design
 
 Clone the repository in your system and follow these steps-
 1. Check if the requirements are satisfied.
-'''
+```
 pip install -r requirements.txt
 
-'''
-
+```
 2. (You may skip this step as the download would automatically start in case you don't mannually download) Download the weights from the link https://drive.google.com/file/d/1f8_6yUAyuJlprSqE8yPGdAi9acN6Rod2/view?usp=sharing and copy them in output/ResidualGRUNet/default_model. The recreation module is an extensive network of 3D CNN followed by flattening and 2D CNN trained on ShapeNet database. As this a heavy network it is advised to download the pre-trained model’s weights.
 
 3. Run the program inter.py.
+```
+python inter.py
+```
 
 4. Enjoy your results.
 
