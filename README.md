@@ -1,5 +1,5 @@
 # EASE- Reconstruction and retrieval
-A highly efficient software build for designers to reconstruct 3D mesh from an unlabelled, unordered set of images. It also has an additional feature of retrieving 3D meshes from online databases.
+A highly efficient software built for designers to reconstruct 3D meshes from an unlabelled, unordered set of images. It also has an additional feature of retrieving 3D meshes from online databases.
 
 <p align="center">
   <img src="https://github.com/ArthDubey/Reconstructionandretrieval/blob/master/logo.png?raw=true" alt="EASE"/>
@@ -43,9 +43,15 @@ python inter.py
 
 ## Approach
 
-Reconstruction module uses extensive Convolutional neural network to extract the features which will be decisive in firing up the voxel neurons. From an unordered set of images of the object (without background), it will be able to output the 3D mesh of the object to a fair degree of accuracy. We had built 2 modules, one for Reconstructing from unordered, unlabelled set of images to a 32*32 voxel size 3D mesh, and another module is retrieval from API of Google Poly database of the 3D mesh according to your search query. The first module uses Theano and sklearn framework for neural network architecture and working. The input channel is the 3 images of size 127*127*3 and output layer is 32*32 to detect voxel. Result samples can be checked out.
+ - Reconstruction module uses extensive Convolutional neural network to extract the features which will be decisive in firing up the voxel neurons. From an unordered set of images of the object (without background), it will be able to output the 3D mesh of the object to a fair degree of accuracy. 
+ - We have built 2 modules, one for Reconstructing from unordered, unlabelled set of images to a 32*32 voxel size 3D mesh, and another module is retrieval from API of Google Poly database of the 3D mesh according to your search query. 
+ - The first module uses Theano and sklearn framework for neural network architecture and working. The input channel is the 3 images of size 127*127*3 and output layer is 32*32 to detect voxel. 
+ - Result samples can be checked out.
 
 ### Requirements
+
+These can easily be installed from our requirements.txt file.
+Alternatively, you could download them yourself.
 
 1.SciPy 
 
@@ -69,7 +75,11 @@ Reconstruction module uses extensive Convolutional neural network to extract the
 
 
 Note- Most of these can be easily installed via pip
+```
+pip install -r requirements.txt
 
+```
+or
 ```
 pip install scipy
 pip install numpy
